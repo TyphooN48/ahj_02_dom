@@ -1,7 +1,7 @@
 /* eslint-disable no-plusplus */
 function randomMinMaxNot(min, max, not) {
   let result = Math.round(Math.random() * (max - min) + min);
-  if(result === not) {
+  if (result === not) {
     result = randomMinMaxNot(0, 15, result);
   }
   return result;
