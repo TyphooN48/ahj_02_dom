@@ -26,14 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
   goblin.classList.add('invisible');
   // const goblinPic = AutoAddChild(goblin, 'img');
   // goblinPic.src = './img/goblin.png';
-  const gamePad = document.getElementById('gamePad');
-  let htmlVar = '';
-  for (let y = 0; y < 16; y++) {
-    htmlVar += '<div class="myCell"></div>';
-  }
-  gamePad.innerHTML = htmlVar;
+  //const gamePad = document.getElementById('gamePad');
+  //let htmlVar = '';
+  //for (let y = 0; y < 16; y++) {
+  //  htmlVar += '<div class="myCell"></div>';
+  //}
+  //gamePad.innerHTML = htmlVar;
   GameState.currentPosition = -1;
   setInterval(() => { runGoblin(); }, 1000);
   // eslint-disable-next-line no-console
-  console.log('it works!');
+  //console.log('it works!');
 });
