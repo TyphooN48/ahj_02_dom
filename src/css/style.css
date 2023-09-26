@@ -27,3 +27,7 @@
     background: url(../img/goblin.png);
     background-color: rgb(136, 132, 132)
 }
+
+h1 {
+    text-align: center;
+}
