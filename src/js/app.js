@@ -1,6 +1,4 @@
 /* eslint-disable no-plusplus */
-import GameState from './GameState';
-
 function randomMinMaxNot(min, max, not) {
   let result = Math.round(Math.random() * (max - min) + min);
   while (result === not) {
